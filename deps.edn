@@ -11,7 +11,7 @@
          mt-app-kit/cljc-multitype-content     {:git/url "https://github.com/mt-app-kit/cljc-multitype-content"
                                                 :sha     "07720cd05ff0b6a724716c872d8b6a20871782cd"}
          mt-app-kit/cljc-preset-props          {:git/url "https://github.com/mt-app-kit/cljc-preset-props"
-                                                :sha     "e94e908516e9d7b7615bef7ef585aa1dddd48eb6"}
+                                                :sha     "34606539cd66839f97e6d9376a449f6c2413ade9"}
          mt-app-kit/cljs-form-validator        {:git/url "https://github.com/mt-app-kit/cljs-form-validator"
                                                 :sha     "fffffffffffffffffffffffffffffffffffffff"}
          mt-app-kit/cljs-keypress-handler      {:git/url "https://github.com/mt-app-kit/cljs-keypress-handler"

@@ -1,7 +1,7 @@
 
 (ns pretty-renderers.methods.api
-    (:require [pretty-renderers.methods.dynamic.import  :as dynamic.import]
-              [pretty-renderers.methods.presets.apply   :as presets.apply]))
+    (:require [pretty-renderers.methods.dynamic.import :as dynamic.import]
+              [pretty-renderers.methods.presets.apply  :as presets.apply]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
