@@ -9,7 +9,7 @@
          mt-app-kit/cljc-dynamic-props         {:git/url "https://github.com/mt-app-kit/cljc-dynamic-props"
                                                 :sha     "0c90be18d403e46fb836279995e787158c6ccc67"}
          mt-app-kit/cljc-multitype-content     {:git/url "https://github.com/mt-app-kit/cljc-multitype-content"
-                                                :sha     "6099126cc4b6d710f8e861828a9b85d345a728a6"}
+                                                :sha     "27e952cf0144a46e3a0872810455f17dc8dbee6b"}
          mt-app-kit/cljc-preset-props          {:git/url "https://github.com/mt-app-kit/cljc-preset-props"
                                                 :sha     "10d906188b45c7890e12cba268f0534016616a4b"}
          mt-app-kit/cljs-form-validator        {:git/url "https://github.com/mt-app-kit/cljs-form-validator"
