@@ -71,4 +71,4 @@
   ; @usage
   ; (dereg-element-keypress-event! :my-element {...})
   [id {:keys [keypress]}]
-  (if keypress (keypress-handler/reg-keypress-event! (pretty-subitems/subitem-id id :keypress))))
+  (if keypress (keypress-handler/dereg-keypress-event! (pretty-subitems/subitem-id id :keypress))))
