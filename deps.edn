@@ -1,37 +1,37 @@
 
 {:paths ["source-code/cljs"]
  :deps  {bithandshake/cljc-fruits              {:git/url "https://github.com/bithandshake/cljc-fruits"
-                                                :sha     "289bfaa76c90632b4332e89a226eb657e7eb4107"}
+                                                :sha     "fcd4ebfed6cc44486464b5d619bef88d620c7f6a"}
          mt-app-kit/cljc-activity-listener     {:git/url "https://github.com/mt-app-kit/cljc-activity-listener"
-                                                :sha     "8048e741af85eb2ce7d00e2f3e54b1bb55c3c5d3"}
+                                                :sha     "6036b4f1cc624591fa700989a24dcf267cd0f81c"}
          mt-app-kit/cljc-common-state          {:git/url "https://github.com/mt-app-kit/cljc-common-state"
-                                                :sha     "41379336fd91e512f42c52106aa7d9e873f77d31"}
+                                                :sha     "85e195270364c664590657c22e89b8cff2f6c99e"}
          mt-app-kit/cljc-dynamic-props         {:git/url "https://github.com/mt-app-kit/cljc-dynamic-props"
-                                                :sha     "bd99198b1f57fd3c05704d26602559fc39a67ba5"}
+                                                :sha     "178ec6cdace1847af5e54b4a1625939780e30521"}
          mt-app-kit/cljc-multitype-content     {:git/url "https://github.com/mt-app-kit/cljc-multitype-content"
-                                                :sha     "251c1be882e02503229c1445da330e4ac911f636"}
+                                                :sha     "7d8b4b846cbc75fe7d4b7253986c654f4dea44e1"}
          mt-app-kit/cljc-preset-props          {:git/url "https://github.com/mt-app-kit/cljc-preset-props"
-                                                :sha     "717dcc304ad2d67784a1422fe746ca721ace03a8"}
+                                                :sha     "4a6e56d167055adba08c0b31371d37e1c735f913"}
          mt-app-kit/cljc-form-validator        {:git/url "https://github.com/mt-app-kit/cljc-form-validator"
-                                                :sha     "6f0ab621ee9d08feeea6f5f7ea239d5104ca94f0"}
+                                                :sha     "8a058ecb2324cc694e692e54e122d951e7fb5016"}
          mt-app-kit/cljs-keypress-handler      {:git/url "https://github.com/mt-app-kit/cljs-keypress-handler"
-                                                :sha     "927ad62beed67b4732a1047542c7c63213e2bc9e"}
+                                                :sha     "e195f51a9c19fe99337dd93bfea82bca925051b5"}
          mt-app-kit/cljs-countdown-timer       {:git/url "https://github.com/mt-app-kit/cljs-countdown-timer"
-                                                :sha     "27c3f3dbd7de62e84b172e0f8bdc0d180978d5bb"}
+                                                :sha     "9de731bee3428963942ddf1fd924fe0ab63d5e3e"}
          mt-app-kit/cljs-intersection-observer {:git/url "https://github.com/mt-app-kit/cljs-intersection-observer"
-                                                :sha     "2016061377972a40c1f7d2cae2f52ffbc891c4d3"}
+                                                :sha     "7fbcefb6bc9489603f7016f4c90640d85fb5ea10"}
          mt-app-kit/cljs-react-references      {:git/url "https://github.com/mt-app-kit/cljs-react-references"
                                                 :sha     "5b567fa5c3de8ced50b145048b4fdd77509bc6f1"}
          mt-app-kit/cljs-scroll-lock           {:git/url "https://github.com/mt-app-kit/cljs-scroll-lock"
-                                                :sha     "00e9eddb5c513c15af954983253949f9c01127e7"}
+                                                :sha     "d46dc932e08c8139839a2313bdf0d987b92b4075"}
          mt-app-kit/cljs-state-synchronizer    {:git/url "https://github.com/mt-app-kit/cljs-state-synchronizer"
                                                 :sha     "b21abb3a097f423ecbc3f49a19cb42def72127b0"}
          mt-extensions/reagent-utils           {:git/url "https://github.com/mt-extensions/reagent-utils"
                                                 :sha     "0527ffbf5a08305dfd4376a78c007f53c1a311b2"}
          mt-utilities/cljc-time                {:git/url "https://github.com/mt-utilities/cljc-time"
-                                                :sha     "880512f25278823fb72bb1fe96036be32573a83a"}
+                                                :sha     "798bb57c5d0d421618bcef7071d49580e16b61aa"}
          mt-utilities/cljs-dom                 {:git/url "https://github.com/mt-utilities/cljs-dom"
-                                                :sha     "7d9641ceafa03a380b0b8c5151264de27fb47226"}
+                                                :sha     "54c012e012889a287bb16b35df2d8f87e648159f"}
          mt-utilities/cljs-window              {:git/url "https://github.com/mt-utilities/cljs-window"
-                                                :sha     "67aeda3a43b8b687172ae5b0c9c4c57fc0571537"}
+                                                :sha     "5bb889459f618a9e835433846586784e781f2abb"}
          org.clojure/clojurescript             {:mvn/version "1.10.891"}}}
