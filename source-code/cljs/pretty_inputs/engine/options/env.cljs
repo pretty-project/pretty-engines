@@ -166,7 +166,7 @@
 
 (defn get-input-highlighted-option
   ; @description
-  ; Returns the the highlighted option (if any) of the input.
+  ; Returns the highlighted option (if any) of the input.
   ;
   ; @param (keyword) id
   ; @param (map) props
