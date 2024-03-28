@@ -1,6 +1,7 @@
 
 (ns pretty-layouts.engine.scroll.views
-    (:require [dynamic-props.api         :as dynamic-props]
+    (:require [component-props.api :as component-props]
+              [dynamic-props.api         :as dynamic-props]
               [intersection-observer.api :as intersection-observer]))
 
 ;; ----------------------------------------------------------------------------

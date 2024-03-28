@@ -1,6 +1,7 @@
 
 (ns pretty-inputs.methods.field.import
-    (:require [dynamic-props.api        :as dynamic-props]
+    (:require [component-props.api :as component-props]
+              [dynamic-props.api        :as dynamic-props]
               [fruits.loop.api          :refer [<-walk]]
               [pretty-inputs.engine.api :as pretty-inputs.engine]
               [fruits.hiccup.api :as hiccup]))
