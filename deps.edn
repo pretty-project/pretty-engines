@@ -17,7 +17,7 @@
          mt-app-kit/cljs-keypress-handler      {:git/url "https://github.com/mt-app-kit/cljs-keypress-handler"
                                                 :sha     "e195f51a9c19fe99337dd93bfea82bca925051b5"}
          mt-app-kit/cljs-countdown-timer       {:git/url "https://github.com/mt-app-kit/cljs-countdown-timer"
-                                                :sha     "2a7e53f9495adcf8295dffe39c55ee5e75bcf8ba"}
+                                                :sha     "afc4faad4f14fcb2db5c34e6bd9fc6c15e3a7e9a"}
          mt-app-kit/cljs-intersection-observer {:git/url "https://github.com/mt-app-kit/cljs-intersection-observer"
                                                 :sha     "fbed6ce3c18930de7e9c05685082cbe674d72327"}
          mt-app-kit/cljs-react-references      {:git/url "https://github.com/mt-app-kit/cljs-react-references"
