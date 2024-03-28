@@ -1,6 +1,6 @@
 
 (ns pretty-elements.methods.presets.apply
-    (:require [preset-props.api :as preset-props]))
+    (:require [component-props.api :as component-props]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
@@ -17,4 +17,4 @@
   ;
   ; @return (map)
   [_ props]
-  (preset-props/apply-presets props))
+  (component-props/apply-presets props))

@@ -15,9 +15,9 @@
          mt-app-kit/cljc-form-validator        {:git/url "https://github.com/mt-app-kit/cljc-form-validator"
                                                 :sha     "7c66a81ca992696b876dff77dae0d236c96289c4"}
          mt-app-kit/cljs-component-props       {:git/url "https://github.com/mt-app-kit/cljs-component-props"
-                                                :sha     "50633f4d2c69711e610f48ad245622668f5fb238"}
+                                                :sha     "0a30d5e59b6cb5106cfebd03bbf2ab17811ec045"}
          mt-app-kit/cljs-component-states      {:git/url "https://github.com/mt-app-kit/cljs-component-states"
-                                                :sha     "8dcf998e251f1a2b240c452365e4fe8ae89f2cd1"}
+                                                :sha     "da3f048adf3dc4ddedb9fc0bf97fa9aaa027bae6"}
          mt-app-kit/cljs-keypress-handler      {:git/url "https://github.com/mt-app-kit/cljs-keypress-handler"
                                                 :sha     "9b6dc9a8e16184610b6a192bd9722ee52462e52a"}
          mt-app-kit/cljs-countdown-timer       {:git/url "https://github.com/mt-app-kit/cljs-countdown-timer"

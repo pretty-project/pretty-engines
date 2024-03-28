@@ -7,7 +7,7 @@
 
 (defn import-accessory-dynamic-props
   ; @links
-  ; [cljc-dynamic-props](https://mt-app-kit.github.io/cljc-dynamic-props)
+  ; [cljs-component-props](https://mt-app-kit.github.io/cljs-component-props)
   ;
   ; @description
   ; Associates the dynamic properties of the accessory to the given property map.
