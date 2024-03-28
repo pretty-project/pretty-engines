@@ -21,4 +21,4 @@
   ;
   ; @return (map)
   [id props]
-  (dynamic-props/import-props id props))
+  (component-props/import-props id props))

@@ -56,5 +56,5 @@
   (keypress.side-effects/dereg-element-keypress-event!      id props)
   (state.side-effects/remove-element-active-state-listener! id props)
   (common-state/dissoc-state! :pretty-ui id)
-  (dynamic-props/clear-props! id)
+  (component-props/clear-props! id)
   (if on-unmount-f (on-unmount-f id)))

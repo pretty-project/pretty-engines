@@ -23,7 +23,7 @@
   ;            [layout-header-sensor :my-layout {...}]
   ;            [:div "My layout body"]]
   [id _]
-  (letfn [(f0 [%] (dynamic-props/merge-props! id {:header-overlapping? (not %)}))]
+  (letfn [(f0 [%] (component-props/merge-props! id {:header-overlapping? (not %)}))]
          [intersection-observer/sensor {:callback-f f0}]))
 
 (defn layout-footer-sensor
@@ -42,5 +42,5 @@
   ;            [layout-footer-sensor :my-layout {...}]
   ;      [:div "My layout footer"]
   [id _]
-  (letfn [(f0 [%] (dynamic-props/merge-props! id {:footer-overlapping? (not %)}))]
+  (letfn [(f0 [%] (component-props/merge-props! id {:footer-overlapping? (not %)}))]
          [intersection-observer/sensor {:callback-f f0}]))

@@ -40,8 +40,8 @@
   ;   To prevent duplicate firing by the browser, their original instances are dissociated from the given property map.
   (<-walk props (fn [%] (dissoc % :on-blur-f :on-change-f :on-focus-f :on-input-f))
                 (fn [%] (hiccup/merge-event-fn % :on-input-f  (fn [v] (pretty-inputs.engine/input-field-value-changed id props v))))
-                (fn [%] (hiccup/merge-event-fn % :on-input-f  (fn [_] (dynamic-props/merge-props!                     id {:expandable {:mounted? true}}))))
-                (fn [%] (hiccup/merge-event-fn % :on-escape-f (fn [_] (dynamic-props/merge-props!                     id {:expandable {:mounted? false}}))))
+                (fn [%] (hiccup/merge-event-fn % :on-input-f  (fn [_] (component-props/merge-props!                   id {:expandable {:mounted? true}}))))
+                (fn [%] (hiccup/merge-event-fn % :on-escape-f (fn [_] (component-props/merge-props!                   id {:expandable {:mounted? false}}))))
                 (fn [%] (hiccup/merge-event-fn % :on-blur-f   (fn [_] (pretty-inputs.engine/input-field-left          id props))))
                 (fn [%] (hiccup/merge-event-fn % :on-focus-f  (fn [_] (pretty-inputs.engine/input-field-focused       id props))))))
 

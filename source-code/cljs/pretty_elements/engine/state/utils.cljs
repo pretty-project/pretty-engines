@@ -18,4 +18,4 @@
   ;
   ; @return (function)
   [id _]
-  (fn [_] (dynamic-props/update-props! id dissoc :active?)))
+  (fn [_] (component-props/update-props! id dissoc :active?)))

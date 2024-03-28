@@ -20,7 +20,7 @@
   ; @usage
   ; (element-key-pressed :my-element {...} 27)
   [id props _]
-  (dynamic-props/merge-props!        id {:active? true})
+  (component-props/merge-props!      id {:active? true})
   (focus.side-effects/focus-element! id props))
 
 (defn element-key-released
@@ -36,7 +36,7 @@
   ; @usage
   ; (element-key-released :my-element {...} 27)
   [id {:keys [on-click-f] :as props} key-code]
-  (dynamic-props/merge-props!       id {:active? nil})
+  (component-props/merge-props!     id {:active? nil})
   (focus.side-effects/blur-element! id props)
   (if on-click-f (on-click-f key-code)))
 

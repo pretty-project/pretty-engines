@@ -23,10 +23,10 @@
   ;
   ; @return (map)
   [id {:keys [active hovered] :as props}]
-  (letfn [(f0 [%] (dynamic-props/update-props! id assoc  :active? true))
-          (f1 [%] (dynamic-props/update-props! id dissoc :active?))
-          (f2 [%] (dynamic-props/update-props! id assoc  :hovered? true))
-          (f3 [%] (dynamic-props/update-props! id dissoc :hovered?))]
+  (letfn [(f0 [%] (component-props/update-props! id assoc  :active? true))
+          (f1 [%] (component-props/update-props! id dissoc :active?))
+          (f2 [%] (component-props/update-props! id assoc  :hovered? true))
+          (f3 [%] (component-props/update-props! id dissoc :hovered?))]
          (cond-> props active  (hiccup/merge-event-fn :on-mouse-down-f  f0)
                        active  (hiccup/merge-event-fn :on-mouse-up-f    f1)
                        hovered (hiccup/merge-event-fn :on-mouse-over-f  f2)
