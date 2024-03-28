@@ -1,13 +1,17 @@
 
-(ns pretty-diagrams.methods.state.import
+(ns pretty-diagrams.methods.states.import
     (:require [pretty-elements.methods.api :as pretty-elements.methods]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
 
 (defn import-diagram-state-events
+  ; @links
+  ; [cljs-component-states](https://mt-app-kit.github.io/cljs-component-states)
+  ;
   ; @description
-  ; Associates the state related events of the diagram to the given property map.
+  ; Associates the state related events of the component to the given property map
+  ; in case of any event controlled state (':focused', ':hovered' or ':pressed') is provided.
   ;
   ; @param (keyword) id
   ; @param (map) props
@@ -22,16 +26,20 @@
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
 
-(defn import-diagram-state
+(defn import-diagram-states
+  ; @links
+  ; [cljs-component-states](https://mt-app-kit.github.io/cljs-component-states)
+  ;
   ; @description
-  ; Associates the state related properties of the diagram to the given property map.
+  ; Imports all dynamically set component state toggles (e.g., ':active?' ':disabled?', etc.) into the given property map.
+  ; Applies the current states of the component on the given property map.
   ;
   ; @param (keyword) id
   ; @param (map) props
   ;
   ; @usage
-  ; (import-diagram-state :my-diagram {...})
+  ; (import-diagram-states :my-diagram {...})
   ;
   ; @return (map)
   [id props]
-  (pretty-elements.methods/import-element-state id props))
+  (pretty-elements.methods/import-element-states id props))

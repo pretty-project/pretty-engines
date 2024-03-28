@@ -6,7 +6,7 @@
               [pretty-inputs.methods.options.import  :as options.import]
               [pretty-inputs.methods.presets.apply   :as presets.apply]
               [pretty-inputs.methods.shorthand.apply :as shorthand.apply]
-              [pretty-inputs.methods.state.import    :as state.import]))
+              [pretty-inputs.methods.states.import    :as states.import]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
@@ -35,6 +35,6 @@
 (def apply-input-shorthand-key shorthand.apply/apply-input-shorthand-key)
 (def apply-input-shorthand-map shorthand.apply/apply-input-shorthand-map)
 
-; @redirect (pretty-inputs.methods.state.import/*)
-(def import-input-state-events state.import/import-input-state-events)
-(def import-input-state        state.import/import-input-state)
+; @redirect (pretty-inputs.methods.states.import/*)
+(def import-input-state-events states.import/import-input-state-events)
+(def import-input-states       states.import/import-input-states)
