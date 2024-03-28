@@ -6,6 +6,9 @@
 ;; ----------------------------------------------------------------------------
 
 (defn apply-element-presets
+  ; @links
+  ; [cljs-component-props](https://mt-app-kit.github.io/cljs-component-props)
+  ;
   ; @description
   ; Applies its presets (if any) on the given property map.
   ;

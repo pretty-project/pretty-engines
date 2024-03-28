@@ -1,7 +1,6 @@
 
 (ns pretty-elements.methods.dynamic.import
-    (:require [component-props.api :as component-props]
-              [dynamic-props.api :as dynamic-props]))
+    (:require [component-props.api :as component-props]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------

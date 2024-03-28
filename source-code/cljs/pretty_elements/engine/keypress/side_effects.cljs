@@ -1,7 +1,6 @@
 
 (ns pretty-elements.engine.keypress.side-effects
     (:require [component-props.api :as component-props]
-              [dynamic-props.api                         :as dynamic-props]
               [keypress-handler.api                      :as keypress-handler]
               [pretty-elements.engine.focus.side-effects :as focus.side-effects]
               [pretty-subitems.api                       :as pretty-subitems]))

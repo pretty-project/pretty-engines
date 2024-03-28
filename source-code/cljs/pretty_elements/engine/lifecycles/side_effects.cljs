@@ -1,7 +1,6 @@
 
 (ns pretty-elements.engine.lifecycles.side-effects
     (:require [common-state.api                             :as common-state]
-              [dynamic-props.api                            :as dynamic-props]
               [component-props.api :as component-props]
               [pretty-elements.engine.keypress.side-effects :as keypress.side-effects]
               [pretty-elements.engine.state.side-effects    :as state.side-effects]

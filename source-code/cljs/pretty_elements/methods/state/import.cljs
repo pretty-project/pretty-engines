@@ -1,7 +1,6 @@
 
 (ns pretty-elements.methods.state.import
     (:require [component-props.api :as component-props]
-              [dynamic-props.api     :as dynamic-props]
               [fruits.hiccup.api :as hiccup]
               [fruits.map.api        :as map]))
 
