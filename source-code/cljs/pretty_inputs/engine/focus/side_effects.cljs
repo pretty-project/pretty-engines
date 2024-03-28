@@ -75,7 +75,6 @@
   ; @usage
   ; (input-focused :my-input {...})
   [id {:keys [on-focus-f] :as props}]
-  (println "input-focused")
   (mark-input-as-focused!                          id props)
   (keypress.side-effects/reg-input-keypress-event! id props 13 :on-enter-f)
   (keypress.side-effects/reg-input-keypress-event! id props 27 :on-escape-f)
