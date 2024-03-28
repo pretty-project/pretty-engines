@@ -19,9 +19,9 @@
          mt-app-kit/cljs-countdown-timer       {:git/url "https://github.com/mt-app-kit/cljs-countdown-timer"
                                                 :sha     "2a7e53f9495adcf8295dffe39c55ee5e75bcf8ba"}
          mt-app-kit/cljs-intersection-observer {:git/url "https://github.com/mt-app-kit/cljs-intersection-observer"
-                                                :sha     "1829ebfacdebd386c47616e56cd4a5d43b601103"}
+                                                :sha     "fbed6ce3c18930de7e9c05685082cbe674d72327"}
          mt-app-kit/cljs-react-references      {:git/url "https://github.com/mt-app-kit/cljs-react-references"
-                                                :sha     "5b151fa85b99dfb7240a654ea63168b2e59e7e31"}
+                                                :sha     "0d24d045cba190237f2e0391b10cb2ab88faaaf2"}
          mt-app-kit/cljs-scroll-lock           {:git/url "https://github.com/mt-app-kit/cljs-scroll-lock"
                                                 :sha     "d46dc932e08c8139839a2313bdf0d987b92b4075"}
          mt-app-kit/cljs-state-synchronizer    {:git/url "https://github.com/mt-app-kit/cljs-state-synchronizer"
