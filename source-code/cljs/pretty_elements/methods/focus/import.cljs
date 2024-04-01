@@ -17,5 +17,5 @@
   ;
   ; @return (map)
   [id props]
-  (let [set-reference-f (fn [%] (react-references/set-reference! id %))]
-       (assoc props :set-reference-f set-reference-f)))
+  (let [store-reference-f (fn [%] (react-references/store-reference! id %))]
+       (assoc props :store-reference-f store-reference-f)))

@@ -91,21 +91,21 @@
   ;
   ; @param (keyword) id
   ; @param (map) props
-  ; {:on-changed-f (function)(opt)
+  ; {:on-change-f (function)(opt)
   ;  :on-empty-f (function)(opt)
   ;  ...}
   ; @param (*) value
   ;
   ; @usage
   ; (set-input-value! :my-input {...} "...")
-  [id {:keys [on-changed-f on-empty-f] :as props} value]
+  [id {:keys [on-change-f on-empty-f] :as props} value]
   (set-input-internal-value!    id props value)
   (set-input-external-value!    id props value)
   (mark-input-as-changed!       id props)
   (form-validator/input-changed id props)
-  (if on-changed-f (on-changed-f value))
-  (if on-empty-f   (if (value.env/input-empty? id props)
-                       (on-empty-f nil))))
+  (if on-change-f (on-change-f value))
+  (if on-empty-f  (if (value.env/input-empty? id props)
+                     (on-empty-f nil))))
 
 (defn update-input-value!
   ; @description

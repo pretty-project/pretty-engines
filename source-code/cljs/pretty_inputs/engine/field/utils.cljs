@@ -13,8 +13,8 @@
   ; @param (keyword) id
   ; @param (map) props
   ; {:field-type (keyword)(opt)
-  ;  :field-modifier-f (function)(opt)
   ;  :max-length (integer)(opt)
+  ;  :field-modifier-f (function)(opt)
   ;  ...}
   ; @param (DOM-event) input-event
   ;

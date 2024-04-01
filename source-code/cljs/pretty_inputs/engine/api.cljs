@@ -43,8 +43,8 @@
 (def input-left               focus.side-effects/input-left)
 
 ; @redirect (pretty-inputs.engine.form.side-effects/*)
-(def validate-input! form.side-effects/validate-input!)
-(def validate-form!  form.side-effects/validate-form!)
+(def reg-form-input!   form.side-effects/reg-form-input!)
+(def dereg-form-input! form.side-effects/dereg-form-input!)
 
 ; @redirect (pretty-inputs.engine.keypress.side-effects/*)
 (def input-key-pressed           keypress.side-effects/input-key-pressed)
